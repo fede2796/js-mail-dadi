@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.dadi{
+    display: flex;
+    margin: 20px 10px;
+}
+.dadi label{
+    margin: 20px 10px;
+}
+.dadi span{
+    margin:20px 10px ;
+}
+#player{
+    color: red;
+}
+#computer{
+    color: green;
+}
+#result{
+    color: purple;
+}
