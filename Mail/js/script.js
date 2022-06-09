@@ -21,13 +21,14 @@ for(let i = 0; i < email.length; i++){
         userFound = true;
     }
 
+}
+
 // UserFound = true allora dico all'utente che può accedere
 // Altrimenti non può accedere
 
-if(userFound){
+if(userFound === true){
     alert('Puoi accedere: email esistente ')
 }
 else{
     alert('Non puoi accedere: email inesistente')
-}
 }
